@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLA 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>PRODUCTS FOR DAY-TO-DAY LIFE</h1>
+    <div id="filters">
+        <P>
+            <label for="category-filter">Filter by Category:</label>
+            <select id="category-filter">
+                <option value="">All</option>
+                <option value="men's clothing">Men's Clothing</option>
+                <option value="jewelery">Jewelry</option>
+                <option value="electronics">Electronics</option>
+                <option value="women's clothing">Women's Clothing</option>
+            </select>
+        </P>
+        <P>
+            <label for="sort">Sort by Price:</label>
+            <select id="sort">
+                <option value="default">Default</option>
+                <option value="asc">Ascending</option>
+                <option value="desc">Descending</option>
+            </select>
+        </P>
+    </div>
+    <div id="products"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
